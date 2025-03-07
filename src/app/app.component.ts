@@ -10,8 +10,4 @@ import { HeaderComponent } from "./components/header/header.component";
 })
 export class AppComponent {
   title = 'Address-Book-AngularJs';
-
-  addPersonHandler($event: Event){
-    console.log("hello", $event)
-  }
 }
